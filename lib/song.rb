@@ -11,6 +11,8 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
+    @@artists << artist
+    @@genres << genre
   end
 
   def self.count
@@ -33,9 +35,7 @@ class Song
   end
   
   def self.artist_count
-    @artist.each do |n|
-      puts artist
-    end
+
   end
   
 end
