@@ -17,22 +17,22 @@ class Song
     @@count
   end
   
-  def self.genres
+  def genres
     @genres
     # def initialize(genre)
     #   @@genres
     # end
   end
   
-  def self.artists
+  def artists
     @artists
   end
   
-  def self.genre_count
+  def genre_count
     @genre
   end
   
-  def self.artist_count
+  def artist_count
     @artist
   end
   
