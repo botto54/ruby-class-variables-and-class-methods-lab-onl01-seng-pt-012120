@@ -25,11 +25,11 @@ class Song
   end
   
   def self.artists
-    @artist = artist
+    @artist = artists
   end
   
   def self.genre_count
-    @genre = genre
+    @genre = genres
   end
   
   def self.artist_count
