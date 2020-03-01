@@ -35,7 +35,7 @@ class Song
   
   def self.artist_count
     @@artist_count = {}
-    @@artists.group_by(&:Itself).each {|h,k| @@artist_count[h] = k.count}
+    @@artists.group_by(&:itself).each {|h,k| @@artist_count[h] = k.count}
     return @@artist_count
   end
   
